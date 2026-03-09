@@ -895,6 +895,57 @@ footer {
   font-size: 14px;
 }
 
+/* ── Who it's for ────────────────────────────────────────── */
+.audience {
+  padding: 100px 0;
+  border-top: 1px solid var(--border);
+}
+
+.audience-header {
+  text-align: center;
+  margin-bottom: 56px;
+}
+
+.audience-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 14px;
+}
+
+.audience-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 28px 20px 24px;
+  text-align: center;
+  transition: background 0.2s, border-color 0.2s, transform 0.2s;
+}
+
+.audience-card:hover {
+  background: var(--bg-card-h);
+  border-color: var(--border-h);
+  transform: translateY(-2px);
+}
+
+.audience-icon {
+  font-size: 32px;
+  margin-bottom: 14px;
+  display: block;
+}
+
+.audience-card h3 {
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  margin-bottom: 8px;
+}
+
+.audience-card p {
+  font-size: 13px;
+  color: var(--text-2);
+  line-height: 1.6;
+}
+
 /* ── FAQ page ─────────────────────────────────────────── */
 .faq-list {
   display: flex;
