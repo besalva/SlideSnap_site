@@ -119,18 +119,18 @@ nav {
 .nav-brand {
   display: flex;
   align-items: center;
-  gap: 9px;
+  gap: 10px;
   text-decoration: none;
   color: var(--text);
   font-weight: 600;
-  font-size: 17px;
+  font-size: 20px;
   letter-spacing: -0.01em;
 }
 
 .nav-brand img {
-  width: 28px;
-  height: 28px;
-  border-radius: 7px;
+  width: 34px;
+  height: 34px;
+  border-radius: 8px;
 }
 
 .nav-links {
