@@ -27,8 +27,8 @@ const T = {
     'mock.export':      '↑ Exportar',
 
     'aud.label':        'Para quem',
-    'aud.title.a':      'Para qualquer pessoa',
-    'aud.title.b':      'que não quer perder nada.',
+    'aud.title.a':      'Você assiste —',
+    'aud.title.b':      'Eu capturo.',
     'aud.1.title':      'Estudantes',
     'aud.1.desc':       'Capture os slides do professor e revise no seu ritmo, sem desviar o foco durante a aula.',
     'aud.2.title':      'Médicos',
@@ -214,8 +214,8 @@ const T = {
     'mock.export':      '↑ Export',
 
     'aud.label':        'Who it\'s for',
-    'aud.title.a':      'For anyone',
-    'aud.title.b':      'who doesn\'t want to miss a thing.',
+    'aud.title.a':      'You watch —',
+    'aud.title.b':      'I capture.',
     'aud.1.title':      'Students',
     'aud.1.desc':       'Capture your professor\'s slides and review them later — without losing focus in class.',
     'aud.2.title':      'Doctors',
