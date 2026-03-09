@@ -895,6 +895,119 @@ footer {
   font-size: 14px;
 }
 
+/* ── Hero trust badges ────────────────────────────────── */
+.hero-trust-badges {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 16px;
+  margin-bottom: 48px;
+}
+
+.hero-trust-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-3);
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 4px 12px;
+  letter-spacing: 0.02em;
+}
+
+/* ── Mockup dedup badge ───────────────────────────────── */
+.hero-mockup-wrap {
+  position: relative;
+  width: 100%;
+  max-width: 820px;
+}
+
+.mockup-dedup-badge {
+  position: absolute;
+  bottom: -14px;
+  right: 28px;
+  background: rgba(48, 209, 88, 0.12);
+  border: 1px solid rgba(48, 209, 88, 0.32);
+  border-radius: 20px;
+  padding: 6px 16px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #30d158;
+  white-space: nowrap;
+  box-shadow: 0 4px 16px rgba(48, 209, 88, 0.12);
+}
+
+/* ── Feature card highlight ───────────────────────────── */
+.feature-card--highlight {
+  border-color: rgba(139, 124, 248, 0.40);
+  background: rgba(139, 124, 248, 0.07);
+}
+
+.feature-card--highlight:hover {
+  border-color: rgba(139, 124, 248, 0.60);
+  background: rgba(139, 124, 248, 0.11);
+}
+
+.feature-card--highlight .feature-icon {
+  background: rgba(139, 124, 248, 0.18);
+  border-color: rgba(139, 124, 248, 0.35);
+}
+
+/* ── Audience section ─────────────────────────────────── */
+.audience {
+  padding: 100px 0;
+  border-top: 1px solid var(--border);
+}
+
+.audience-header {
+  text-align: center;
+  margin-bottom: 56px;
+}
+
+.audience-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+.audience-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 32px 28px;
+  text-align: left;
+  transition: background 0.2s, border-color 0.2s, transform 0.2s;
+}
+
+.audience-card:hover {
+  background: var(--bg-card-h);
+  border-color: var(--border-h);
+  transform: translateY(-2px);
+}
+
+.audience-icon {
+  font-size: 32px;
+  margin-bottom: 18px;
+  line-height: 1;
+}
+
+.audience-card h3 {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  margin-bottom: 10px;
+}
+
+.audience-card p {
+  font-size: 14px;
+  color: var(--text-2);
+  line-height: 1.65;
+}
+
 /* ── Responsive ───────────────────────────────────────── */
 @media (max-width: 640px) {
   .nav-links { display: none; }

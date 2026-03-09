@@ -12,7 +12,7 @@
   <meta property="og:description" content="Nunca mais perca um slide. SlideSnap detecta e captura automaticamente cada slide durante apresentações e aulas." />
   <meta property="og:type" content="website" />
 
-  <link rel="stylesheet" href="style.css?v=3" />
+  <link rel="stylesheet" href="style.css?v=4" />
   <link rel="icon" type="image/png" href="icon.png" />
 </head>
 <body>
@@ -55,13 +55,13 @@
   <div class="hero-badge" data-i18n="hero.badge">Disponível para macOS</div>
 
   <h1>
-    <span data-i18n="hero.h1a">Capture cada slide</span><br />
-    <span class="accent" data-i18n="hero.h1b">sem perder o foco.</span>
+    <span data-i18n="hero.h1a">Aulas. Webinars. Palestras.</span><br />
+    <span class="accent" data-i18n="hero.h1b">Transformados em slides organizados.</span>
   </h1>
 
   <p class="hero-sub" data-i18n="hero.sub">
-    O SlideSnap detecta automaticamente quando o slide muda e salva cada um para você.
-    Mantenha o foco em aulas, palestras e webinars — e revise tudo depois.
+    O SlideSnap captura e organiza cada slide automaticamente — para você manter o foco em ouvir.
+    Exporte para PDF ou PPTX quando terminar.
   </p>
 
   <ul class="hero-benefits" aria-label="Key benefits">
@@ -81,7 +81,16 @@
     <a href="#how" class="btn-secondary" data-i18n="hero.secondary">Ver como funciona →</a>
   </div>
 
+  <!-- Trust badges -->
+  <div class="hero-trust-badges" aria-label="Key guarantees">
+    <span class="hero-trust-badge">✓ <span data-i18n="hero.trust1">Compra única</span></span>
+    <span class="hero-trust-badge">✓ <span data-i18n="hero.trust2">Funciona offline</span></span>
+    <span class="hero-trust-badge">✓ <span data-i18n="hero.trust3">macOS 13.5+</span></span>
+    <span class="hero-trust-badge">✓ <span data-i18n="hero.trust4">Sem assinatura</span></span>
+  </div>
+
   <!-- App Window Mockup -->
+  <div class="hero-mockup-wrap">
   <div class="hero-mockup" role="img" aria-label="SlideSnap interface preview">
     <div class="mockup-bar">
       <div class="mockup-dot red"></div>
@@ -120,6 +129,8 @@
       </div>
     </div>
   </div>
+  <div class="mockup-dedup-badge" data-i18n="hero.dedup">Remove duplicatas automaticamente</div>
+  </div><!-- /hero-mockup-wrap -->
 </section>
 
 <!-- ── Features ─────────────────────────────────────────── -->
@@ -138,15 +149,15 @@
     </div>
 
     <div class="features-grid">
+      <div class="feature-card feature-card--highlight">
+        <div class="feature-icon" aria-hidden="true">✂️</div>
+        <h3 data-i18n="f2.title">Remove duplicatas</h3>
+        <p data-i18n="f2.desc">Algoritmo de comparação visual descarta frames repetidos. Você recebe apenas slides únicos, prontos para revisar.</p>
+      </div>
       <div class="feature-card">
         <div class="feature-icon" aria-hidden="true">⏺️</div>
         <h3 data-i18n="f1.title">Captura automática</h3>
         <p data-i18n="f1.desc">Detecta cada mudança de slide em tempo real e captura automaticamente, sem interromper sua atenção. Ajuste o intervalo e a sensibilidade.</p>
-      </div>
-      <div class="feature-card">
-        <div class="feature-icon" aria-hidden="true">✂️</div>
-        <h3 data-i18n="f2.title">Remove duplicatas</h3>
-        <p data-i18n="f2.desc">Algoritmo de comparação visual descarta frames repetidos. Você recebe apenas slides únicos, prontos para revisar.</p>
       </div>
       <div class="feature-card">
         <div class="feature-icon" aria-hidden="true">📤</div>
@@ -167,6 +178,36 @@
         <div class="feature-icon" aria-hidden="true">✂️</div>
         <h3 data-i18n="f6.title">Edição integrada</h3>
         <p data-i18n="f6.desc">Recorte, reorganize e remova slides individuais antes de exportar. Tudo dentro do app, sem precisar de outro software.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Audience ──────────────────────────────────────────── -->
+<section class="audience" id="audience">
+  <div class="container">
+    <div class="audience-header">
+      <span class="section-label" data-i18n="aud.label">Para quem é</span>
+      <h2 class="section-title">
+        <span data-i18n="aud.title.a">Feito para quem</span><br />
+        <span data-i18n="aud.title.b">assiste apresentações.</span>
+      </h2>
+    </div>
+    <div class="audience-grid">
+      <div class="audience-card">
+        <div class="audience-icon" aria-hidden="true">🎓</div>
+        <h3 data-i18n="aud.1.title">Estudantes</h3>
+        <p data-i18n="aud.1.desc">Capture slides das suas aulas e revise o conteúdo depois com o material organizado.</p>
+      </div>
+      <div class="audience-card">
+        <div class="audience-icon" aria-hidden="true">👩‍🏫</div>
+        <h3 data-i18n="aud.2.title">Professores</h3>
+        <p data-i18n="aud.2.desc">Recupere slides de aulas passadas e reaproveite material didático com facilidade.</p>
+      </div>
+      <div class="audience-card">
+        <div class="audience-icon" aria-hidden="true">💼</div>
+        <h3 data-i18n="aud.3.title">Participantes de Webinars</h3>
+        <p data-i18n="aud.3.desc">Transforme apresentações assistidas em material visual pronto para estudar ou compartilhar.</p>
       </div>
     </div>
   </div>
@@ -271,7 +312,7 @@
   </div>
 </footer>
 
-<script src="i18n.js?v=3"></script>
+<script src="i18n.js?v=4"></script>
 <script>
   // ── Theme toggle ──────────────────────────────────────
   const themeBtn = document.getElementById('themeToggle');
