@@ -65,7 +65,6 @@
 }
 
 [data-theme="light"] .screenshot-label {
-  background: linear-gradient(to top, rgba(245,245,247,0.95) 0%, transparent 100%);
   color: var(--text-2);
 }
 
@@ -658,16 +657,12 @@ section { position: relative; z-index: 1; }
 }
 
 .screenshot-label {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 20px 16px 14px;
-  background: linear-gradient(to top, rgba(8,8,14,0.9) 0%, transparent 100%);
-  font-size: 12px;
+  padding: 14px 16px;
+  font-size: 13px;
   font-weight: 600;
   color: var(--text-2);
-  letter-spacing: 0.02em;
+  letter-spacing: 0.01em;
+  text-align: center;
 }
 
 @media (max-width: 640px) {
