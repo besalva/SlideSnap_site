@@ -1,2 +1,10 @@
+# Mac
 .DS_Store
+.AppleDouble
+
+# Editors
+.vscode/
+.idea/
+
+# Logs
 *.log
