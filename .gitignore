@@ -5,6 +5,11 @@
 # Editors
 .vscode/
 .idea/
+.claude/
+
+# Worker
+worker/node_modules/
+worker/.wrangler/
 
 # Logs
 *.log

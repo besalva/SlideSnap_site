@@ -85,7 +85,25 @@ const T = {
     'footer.how':       'Como funciona',
     'footer.faq':       'FAQ',
     'footer.privacy':   'Privacidade',
-    'footer.copy':      '© 2025 SlideSnap. Todos os direitos reservados.',
+    'footer.contact':   'Contato',
+    'footer.copy':      '© 2026 SlideSnap. Todos os direitos reservados.',
+
+    // Contact
+    'nav.contact':                'Contato',
+    'contact.label':              'Contato',
+    'contact.title.a':            'Tem alguma dúvida?',
+    'contact.title.b':            'Fale conosco',
+    'contact.sub':                'Envie sua mensagem e responderemos o mais breve possível.',
+    'contact.name.label':         'Nome',
+    'contact.name.placeholder':   'Seu nome',
+    'contact.email.label':        'E-mail',
+    'contact.email.placeholder':  'seu@email.com',
+    'contact.message.label':      'Mensagem',
+    'contact.message.placeholder':'Como podemos ajudar?',
+    'contact.submit':             'Enviar mensagem',
+    'contact.sending':            'Enviando…',
+    'contact.success':            'Mensagem enviada com sucesso! Responderemos em breve.',
+    'contact.error':              'Erro ao enviar. Tente novamente mais tarde.',
 
     // FAQ page
     'faq.page.title':   'FAQ — SlideSnap',
@@ -272,7 +290,25 @@ const T = {
     'footer.how':       'How it works',
     'footer.faq':       'FAQ',
     'footer.privacy':   'Privacy',
-    'footer.copy':      '© 2025 SlideSnap. All rights reserved.',
+    'footer.contact':   'Contact',
+    'footer.copy':      '© 2026 SlideSnap. All rights reserved.',
+
+    // Contact
+    'nav.contact':                'Contact',
+    'contact.label':              'Contact',
+    'contact.title.a':            'Have a question?',
+    'contact.title.b':            'Get in touch',
+    'contact.sub':                'Send us a message and we\'ll get back to you as soon as possible.',
+    'contact.name.label':         'Name',
+    'contact.name.placeholder':   'Your name',
+    'contact.email.label':        'Email',
+    'contact.email.placeholder':  'your@email.com',
+    'contact.message.label':      'Message',
+    'contact.message.placeholder':'How can we help?',
+    'contact.submit':             'Send message',
+    'contact.sending':            'Sending…',
+    'contact.success':            'Message sent successfully! We\'ll get back to you soon.',
+    'contact.error':              'Failed to send. Please try again later.',
 
     // FAQ page
     'faq.page.title':   'FAQ — SlideSnap',
@@ -382,6 +418,11 @@ function applyLang(lang) {
   document.querySelectorAll('[data-i18n]').forEach(function(el) {
     const key = el.getAttribute('data-i18n');
     if (dict[key] !== undefined) el.textContent = dict[key];
+  });
+
+  document.querySelectorAll('[data-i18n-placeholder]').forEach(function(el) {
+    const key = el.getAttribute('data-i18n-placeholder');
+    if (dict[key] !== undefined) el.placeholder = dict[key];
   });
 
   const label = document.getElementById('langLabel');

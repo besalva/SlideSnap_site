@@ -1,0 +1,9 @@
+name = "slidesnap-contact"
+main = "src/index.js"
+compatibility_date = "2024-12-01"
+
+[vars]
+TO_EMAIL = "seu-email@exemplo.com"
+TO_NAME = "SlideSnap"
+FROM_EMAIL = "noreply@slidesnap.app"
+FROM_NAME = "SlideSnap Contact Form"
